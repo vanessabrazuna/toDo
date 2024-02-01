@@ -2,16 +2,16 @@ import { Header } from './components/Header'
 import { Input } from './components/Input'
 import { Tasks } from './components/Tasks'
 
-import './global.css'
+import styles from './App.module.css'
 
 export function App() {
   return (
-    <div>
+    <main>
       <Header />
-      <main>
+      <section className={styles.content}>
         <Input />
         <Tasks />
-      </main>
-    </div>
+      </section>
+    </main>
   )
 }
