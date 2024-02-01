@@ -1,0 +1,24 @@
+.info {
+  margin: auto;
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoCreated, 
+.infoDone {
+  display: flex;
+  gap: .5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
