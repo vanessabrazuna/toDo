@@ -1,0 +1,38 @@
+.items {
+  padding: 1rem;
+  border-radius: .50rem;
+  border: 1px solid var(--gray-400);
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+
+  display: flex;
+  gap: .85rem;
+}
+
+.items span {
+  line-height: 1.4rem;
+  text-wrap: wrap;
+}
+
+.items span:active {
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+}
+
+.trash {
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: .3rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: var(--gray-300);
+  
+  transition: 0.2s background-color;
+}
+
+.trash:hover {
+  background-color: var(--gray-400);
+  color: var(--danger);
+  cursor: pointer;
+}

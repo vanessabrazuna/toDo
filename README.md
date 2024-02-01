@@ -22,6 +22,7 @@ The project was developed using the following technologies
 - [ReactJS](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Lucide React](https://lucide.dev/)
+- [Radix UI](https://www.radix-ui.com/)
 - [Eslint](https://eslint.org/)
 <!-- - [Zod](https://zod.dev/) -->
 

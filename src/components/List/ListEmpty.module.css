@@ -1,0 +1,17 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  line-height: 1.3rem;
+  color: var(--gray-300);
+
+  border-top: 1px solid var(--gray-400);
+}
+
+.empty img {
+  margin: 3rem 0 .7rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}

@@ -1,0 +1,44 @@
+/* reset */
+button {
+  all: unset;
+}
+
+.checkboxRoot {
+  background-color: var(--gray-500);
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 100%;
+
+  transition: 0.2s all;
+  border: 2px solid var(--blue);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxRoot:hover {
+  background-color: var(--gray-600);
+}
+
+.checkboxRoot:checked {
+  border: 2px solid var(--purple);
+}
+
+.checkboxIndicator {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 100%;
+  background-color: var(--purple-dark);
+  border: 2px solid var(--purple-dark);
+  color: var(--gray-100);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxIndicator:hover {
+  background-color: var(--purple);
+  border: 2px solid var(--purple);
+}

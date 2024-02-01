@@ -1,4 +1,5 @@
-import Clipboard from '../assets/clipboard.png'
+import { ListEmpty } from './List/ListEmpty'
+import { ListItems } from './List/ListItems'
 
 import styles from './Tasks.module.css'
 
@@ -18,9 +19,10 @@ export function Tasks() {
       </div>
 
       <div className={styles.list}>
-        <img src={Clipboard} alt="" />
-        <strong>Você ainda não tem tarefas cadastradas</strong>
-        <span>Crie tarefas e organize seus itens a fazer</span>
+        {/* <ListEmpty /> */}
+        <ListItems />
+        <ListItems />
+        <ListItems />
       </div>
     </section>
   )
