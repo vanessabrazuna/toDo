@@ -8,7 +8,7 @@ export function App() {
   return (
     <main>
       <Header />
-      <section className={styles.content}>
+      <section className={styles.container}>
         <Input />
         <Tasks />
       </section>
