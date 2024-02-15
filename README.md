@@ -1,21 +1,11 @@
-<h1 align="center"> toDo </h1>
-<br>
+![Cover](./.github/cover.png)
 
-
-# Index
-
-- [About](#-about)
-- [Technologies Used](#-technologies-used)
-- [How to download the project](#-how-to-download-the-project)
-
-
-## 🔖&nbsp; About
+# toDo
 
 To-do list style task tracking application.
 
----
 
-## 🚀 Technologies Used
+## Technologies Used
 
 The project was developed using the following technologies
 
@@ -26,25 +16,14 @@ The project was developed using the following technologies
 - [Eslint](https://eslint.org/)
 <!-- - [Zod](https://zod.dev/) -->
 
----
 
-## 🗂 How to download the project
+## Running
 
-```bash
+After cloning the repository, access the project folder and execute the commands below:
 
-    # Clone the repository
-    $ git clone https://github.com/vanessabrazuna/toDo
-
-    # Enter directory
-    $ cd toDo
-
-    # Install the dependencies
-    $ npm toDo
-
-    # Start the project
-    $ npm run dev
+```sh
+npm install
+npm run dev
 ```
 
----
-
-Developed 💜 by Vanessa Brazuna
+Access http://localhost:5173 to view the application.
