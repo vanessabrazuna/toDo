@@ -1,51 +1,21 @@
-.form {
-  height: 3.3rem;
-  display: flex;
-  justify-content: center;
-  gap: .5rem;
-  margin-top: -1.5rem;
-}
-
-.input {
-  width: 100%;
-  padding: 0 1rem;
-  border-radius: .50rem;
-  border: 0;
-  outline: none;
+.container {
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
 
   background-color: var(--gray-500);
   color: var(--gray-100);
-}
 
-.input::placeholder {
-  color: var(--gray-300);
-}
-
-.input:focus {
-  box-shadow: 0 0 0 1px var(--purple-dark);
-}
-
-.button {
+  height: 3.375rem;
   padding: 1rem;
-  border-radius: .50rem;
-  border: 0;
-  outline: none;
+  width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: .4rem;
-
-  background-color: var(--blue-dark);
-  color: var(--gray-100);
-  font-size: 0.875rem;
   line-height: 140%;
-  font-weight: bold;
-
-  transition: background .1s;
 }
 
-.button:hover {
-  background-color: var(--blue);
-  cursor: pointer;
+.container::placeholder {
+  color: var(--gray-300)
+}
+
+.container:focus {
+  border-color: var(--purple-dark);
 }

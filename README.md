@@ -13,8 +13,8 @@ The project was developed using the following technologies
 - [TypeScript](https://www.typescriptlang.org)
 - [Lucide React](https://lucide.dev/)
 - [Radix UI](https://www.radix-ui.com/)
+- [Sonner](https://sonner.emilkowal.ski/)
 - [Eslint](https://eslint.org/)
-<!-- - [Zod](https://zod.dev/) -->
 
 
 ## Running
