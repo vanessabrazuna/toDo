@@ -1,6 +1,6 @@
 ![Cover](./.github/cover.png)
 
-# toDo
+# ToDo
 
 To-do list style task tracking application.
 
